@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "IAMAPLAYER";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/IAMAPLAYER.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: lightcyan;
+  padding: 100px;
+  font-family: "IAMAPLAYER";
+}
+
+button {
+  background: transparent;
+  cursor: pointer;
+}
+
+section {
+  max-width: 600px;
+  min-width: 360px;
+  margin: auto;
+  background: rgb(224, 247, 247);
+  border-radius: 16px;
+  color: rgba(9, 119, 192, 0.5882352941);
+}
+section header {
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  background: linear-gradient(80deg, rgb(205, 252, 252), rgb(146, 245, 245), rgb(205, 252, 252));
+  border-radius: 16px 16px 0 0;
+  color: rgba(4, 145, 145, 0.61);
+}
+section footer {
+  background: linear-gradient(80deg, rgb(205, 252, 252), rgb(146, 245, 245), rgb(205, 252, 252));
+  border-radius: 0 0 16px 16px;
+  text-align: center;
+}
+section footer .input_wrap {
+  background: rgb(224, 247, 247);
+  padding: 10px 0;
+}
+section footer .footer_input {
+  width: 96%;
+  padding: 10px;
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  background: rgba(164, 236, 236, 0.733);
+  color: rgba(9, 119, 192, 0.5882352941);
+}
+section footer .footer_input::-moz-placeholder {
+  color: rgba(110, 157, 163, 0.3882352941);
+}
+section footer .footer_input::placeholder {
+  color: rgba(110, 157, 163, 0.3882352941);
+}
+section footer .btn_wrap {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+section footer .footer_addBtn {
+  width: 48px;
+  height: 48px;
+  font-size: 28px;
+  transition: 0.3 ease-in;
+  color: rgba(0, 0, 0, 0.3);
+}
+section footer .footer_addBtn:hover {
+  transform: scale(1.1);
+}
+section footer .reset_btn {
+  position: absolute;
+  right: 20px;
+  top: 13px;
+  font-size: 22px;
+  cursor: pointer;
+  color: #458ee0;
+  transition: 0.5s;
+}
+section footer .reset_btn:hover {
+  color: #aaa;
+  transform: rotate(360deg);
+}
+
+.items {
+  height: 500px;
+  overflow-y: auto;
+  padding-bottom: 10px;
+}
+.items .item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+.items .item .item_delBtn {
+  font-size: 15px;
+  color: rgb(70, 204, 204);
+  transition: 0.3s;
+}
+.items .item .item_delBtn:hover {
+  color: red;
+  transform: scale(1.1);
+}
+.items .item_devider {
+  margin: auto;
+  width: 90%;
+  height: 1px;
+  background: rgb(106, 228, 228);
+}/*# sourceMappingURL=basic.css.map */
